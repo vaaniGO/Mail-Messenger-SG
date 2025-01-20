@@ -12,3 +12,6 @@ In the case where the email has multiple Reply emails (the email is a thread), t
 3. Concatenate them giving appropriate disclaimer that they are follow up and reply emails and just build onto the original one (original = one with earliest timestamp)
 4. Pass this compact string to the LLM to identify the latest event details
 
+Notes: 
+1. To make this process efficient, we must only begin searching / looping emails after a certain timestamp (current - 1 day) or something. Because otherwise, every 60 seconds, ALL emails in the label are fetched and unnecessarily processed again.
+
