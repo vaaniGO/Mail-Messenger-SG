@@ -7,14 +7,14 @@ import pandas as pd
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 client = Groq(
-    api_key= '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',  # This is the default and can be omitted
+    api_key= '',  # This is the default and can be omitted
 )
 
-model = ChatGoogleGenerativeAI(model="gemini-1.0-pro", google_api_key='AIzaSyBpD8n0V6-9MiBPsJEM9ymX0G0awBb-V1Y')
+model = ChatGoogleGenerativeAI(model="gemini-1.0-pro", google_api_key='')
 
 # Account credentials
 EMAIL = "vaani.goenka_ug2024@ashoka.edu.in"
-PASSWORD = "jait xepc kvuk onfr"
+PASSWORD = ""
 IMAP_SERVER = "imap.gmail.com"
 IMAP_PORT = 993
 
