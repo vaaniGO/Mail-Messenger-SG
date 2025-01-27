@@ -29,4 +29,4 @@ In the case where the email has multiple Reply emails (the email is a thread), t
 
 Notes: 
 1. We must run a variety of test-cases to see how we can prompt the LLM even better.
-
+2. LLM Model currently being used: Gemini 1.0 pro
