@@ -12,6 +12,8 @@ True,{<br>
 "Time": "1:45 to 3:00  P.M. (IST)",<br>
 "Venue": "LR - AC-02-LR-003"<br>
 },<br>
+"Descriptive Summary": "The colloquium will feature a presentation by Neeraj Prasad and Kartikeya Batra on the topic of 'Violence as Craft: How Violence Shapes Voter Preferences'. The presentation will explore the argument that violence can be used to transform rather than maintain partisan identities and preferences, and will draw on empirical evidence from India to support this argument."
+} <br>
 <br>
 The task is to 
 1. Distinguish a non-event email from an event email
